@@ -1,0 +1,113 @@
+@media only screen and (min-width: 400px) {
+	img {
+		width:247px;
+	}
+
+	#current {
+		height:329px;
+	}
+}
+
+@media only screen and (min-width: 450px) {
+	#current li{
+		font-size: 1em;
+	}
+
+	#current {
+		
+	}
+}
+
+@media only screen and (min-width: 910px) {
+	.wrapper {
+		overflow:hidden;
+		width:900px;
+		/*height:2500px;*/
+	}
+
+	/*/////CURRENT/////*/
+	#current {
+		display:inline-block;
+		position:relative;
+		width: 195px;
+		left:433px;
+		top:356px;
+	}
+
+	#current p {
+		font-size: 1.15em;
+	}
+
+	
+	/*/////RESUME/////*/
+	#resume {
+		position: relative;
+		height:800px;
+		top:-329px;
+		left:0px;
+		width:675px;
+	}
+
+	#resume h2 {
+		
+	}
+
+	#resume h3 {
+		margin: 0 0 0 6px;
+		font-size:3em;
+	}
+
+	#resume h4 {
+		font-size:2em;
+	}
+	
+	#resume li {
+		font-size:1.2em;
+		margin-bottom:10px;
+	}
+
+	#resume a {
+		position:relative;
+		top:21px;
+	}
+	
+	/*/////CONTACT/////*/
+	#contact-card {
+		position: relative;
+		height:350px;
+		top:-806px;
+		left:698px;
+		width:195px;
+	}
+	
+	#contact-card h2 {
+		font-size: 3em;
+		line-height: 40px;
+		padding:3px;
+	}	
+
+	#contact-card a {
+		font-size: .68em;
+		padding:0;
+		width:123px;
+	}
+
+	#about {
+		display:inline-block;
+		position:relative;
+		height:329px;
+		width:623px;
+		left:270px;
+		top:-329px;
+	}
+
+	#about h2 {
+		padding-top:0;
+		margin-top:0;
+	}
+
+	#about p {
+		padding:3px;
+		font-size: 1.15em;
+	}
+}
